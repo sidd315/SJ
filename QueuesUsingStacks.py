@@ -47,6 +47,10 @@ class MyQueue:
             return True
         else:
             return False
+
+    def hello():
+        print("hello World!!!")
+        
         
 # Time and space complexity - Time complexity in average case would be O(1) and space complexity would be 2n
 # Approach - Designing 2 stacks - one for push and one for pop, if pop comes and the second stack is empty, pop 
